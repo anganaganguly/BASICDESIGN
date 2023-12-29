@@ -1,12 +1,13 @@
 import React from 'react';
+import './SubmittedPage.css';
 
 
 const SubmittedPage = () => {
   
     return (
        
-        <div >
-          Submitted
+        <div className='center-container'>
+          <img src="Submitted.jpg" alt="Submitted"/>
         </div>
       
     );

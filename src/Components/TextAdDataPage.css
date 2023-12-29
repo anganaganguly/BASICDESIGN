@@ -79,6 +79,7 @@
 
   .right-section .form-group1 #description01 {
     width: 80%;
+    height: 100%;
   }
 
   .right-section .form-group1 #buttonLabel {
@@ -94,12 +95,5 @@
     margin-bottom: 45px;
   }
   
-  /* textarea {
-    height: 100px; 
-  } */
-  
-  /* button {
-    margin-top: 40px;
-  } */
   
   

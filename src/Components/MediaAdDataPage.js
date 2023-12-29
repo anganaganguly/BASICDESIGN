@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './MediaAdDataPage.css';
 
-const TextAdDataPage = () => {
+const MediaAdDataPage = () => {
     const navigate = useNavigate();
   
     const handleBack = () => {
@@ -14,7 +14,7 @@ const TextAdDataPage = () => {
       navigate('/ads-submitted');
       setTimeout(() => {
         navigate('/create-ad');
-      }, 600);
+      }, 3000);
     };
   
     return (
@@ -80,5 +80,5 @@ const TextAdDataPage = () => {
     );
   };
   
-  export default TextAdDataPage;
+  export default MediaAdDataPage;
   

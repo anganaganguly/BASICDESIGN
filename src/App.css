@@ -49,11 +49,13 @@
   display: flex;
   gap: 50px;
   align-items: center;
+  padding-right: 48px;
 }
 
 .logo {
   cursor: pointer;
   font-weight: bold;
+  padding-left: 48px;
 }
 
 .nav-link {

@@ -16,7 +16,7 @@ const TextAdDataPage = () => {
         navigate('/ads-submitted');
         setTimeout(() => {
             navigate('/create-ad');
-        }, 600);
+        }, 3000);
     };
     
 
