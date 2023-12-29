@@ -1,0 +1,105 @@
+ .text-ad-data-page {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100%;
+  }
+  
+  .text-ad-data-page label {
+    font-weight: bold;
+    margin-bottom: 100px;
+  }
+  
+  .text-ad-data-page input
+   {
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .text-ad-data-page textarea {
+    width: 100% ;
+    padding: 60px;
+  }
+  
+  .text-ad-data-page .submit-button
+   {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 40px;
+    right: 80px;
+    text-align: center;
+  }
+
+  .text-ad-data-page .back-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 40px;
+    right: 250px;
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  
+  .form-container {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .right-section .form-group1 #description01 {
+    width: 80%;
+  }
+
+  .right-section .form-group1 #buttonLabel {
+    width: 30%;
+    padding: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+
+  .form-group1 {
+    margin-bottom: 45px;
+  }
+  
+  /* textarea {
+    height: 100px; 
+  } */
+  
+  /* button {
+    margin-top: 40px;
+  } */
+  
+  

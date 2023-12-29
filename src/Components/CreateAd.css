@@ -1,0 +1,68 @@
+/* create.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container1 {
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+
+h2 {
+    margin-left: 48px;
+}
+
+.ad-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5%;
+}
+
+.ad-wrapper {
+    padding-top: 3%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(222, 222, 222, 0.564);
+    max-height: 800px !important;
+    max-width: 600px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ad-image {
+    width: 80%;
+    height: 80%;
+}
+
+.checkbox-label {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    padding-top: 30px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+button {
+    border: none;
+    border-radius: 4%;
+    height: 40px;
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    margin-right: 48px;
+    display: block;
+}
+
+button:hover {
+    background-color: #45a049;
+}
