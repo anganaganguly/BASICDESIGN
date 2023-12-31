@@ -13,7 +13,7 @@ const DoughnutChart = ({ data }) => {
           };
         }, []);
 
-  // Extracting group and clicks data from the provided JSON
+ 
   const labels = data.map((item) => item.group);
   const clicksData = data.map((item) => item.clicks);
 
@@ -22,7 +22,7 @@ const DoughnutChart = ({ data }) => {
     datasets: [
       {
         data: clicksData,
-        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'], // You can add more colors if needed
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'], 
         hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
       },
     ],
